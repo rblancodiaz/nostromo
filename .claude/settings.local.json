@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp add-json \"NT2D\" '{\"\"command\"\":\"\"npx\"\",\"\"args\"\":[\"\"-y\"\",\"\"@bytebase/dbhub\"\"],\"\"env\"\":{\"\"TRANSPORT\"\":\"\"stdio\"\",\"\"DSN\"\":\"\"mysql://neobookings:seenaiSh5Aewiu8@192.168.1.100:3306/neobookings_latest\"\",\"\"READONLY\"\":\"\"true\"\"}}')"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "enabledMcpjsonServers": [
+    "googleAdsServer",
+    "neobookings"
+  ],
+  "enableAllProjectMcpServers": true
+}

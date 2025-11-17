@@ -1,0 +1,9 @@
+host: devbox.neobookings.com (192.168.1.100)
+user: neobookings
+password: seenaiSh5Aewiu8
+db: neobookings_latest
+puerto: 3306
+
+---
+
+claude mcp add-json "NT2D" '{"command":"npx","args":["-y","@bytebase/dbhub"],"env":{"TRANSPORT":"stdio","DSN":"mysql://neobookings:seenaiSh5Aewiu8@192.168.1.100:3306/neobookings_latest","READONLY":"true"}}'
