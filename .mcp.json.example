@@ -1,0 +1,68 @@
+{
+  "mcpServers": {
+    "mcp-atlassian": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e", "CONFLUENCE_URL",
+        "-e", "CONFLUENCE_USERNAME",
+        "-e", "CONFLUENCE_API_TOKEN",
+        "-e", "JIRA_URL",
+        "-e", "JIRA_USERNAME",
+        "-e", "JIRA_API_TOKEN",
+        "ghcr.io/sooperset/mcp-atlassian:latest"
+      ],
+      "env": {
+        "CONFLUENCE_URL": "https://your-company.atlassian.net/wiki",
+        "CONFLUENCE_USERNAME": "your.email@company.com",
+        "CONFLUENCE_API_TOKEN": "YOUR_CONFLUENCE_API_TOKEN_HERE",
+        "JIRA_URL": "https://your-company.atlassian.net",
+        "JIRA_USERNAME": "your.email@company.com",
+        "JIRA_API_TOKEN": "YOUR_JIRA_API_TOKEN_HERE"
+      }
+    },
+    "googleAdsServer": {
+      "command": "D:\\devprojects\\mcp-google-ads\\.venv-casa-ibiza\\Scripts\\python.exe",
+      "args": [
+        "D:\\devprojects\\mcp-google-ads\\google_ads_server.py"
+      ],
+      "env": {
+        "GOOGLE_ADS_AUTH_TYPE": "oauth",
+        "GOOGLE_ADS_CREDENTIALS_PATH": "D:\\devprojects\\mcp-google-ads\\client_secret.json",
+        "GOOGLE_ADS_DEVELOPER_TOKEN": "YOUR_DEVELOPER_TOKEN_HERE",
+        "GOOGLE_ADS_LOGIN_CUSTOMER_ID": "YOUR_CUSTOMER_ID_HERE"
+      }
+    },
+    "neobookings": {
+      "command": "python",
+      "args": ["D:\\devprojects\\nostromo\\main.py"],
+      "env": {
+        "NEO_CLIENT_CODE": "neo",
+        "NEO_SYSTEM_CODE": "XML",
+        "NEO_USERNAME": "YOUR_USERNAME_HERE",
+        "NEO_PASSWORD": "YOUR_PASSWORD_HERE",
+        "NEO_API_BASE_URL": "https://ws-test.neobookings.com/api/v2",
+        "NEO_API_TIMEOUT": "30",
+        "MCP_LOG_LEVEL": "INFO"
+      }
+    },
+    "hubspot": {
+      "command": "npx",
+      "args": ["-y", "@hubspot/mcp-server"],
+      "env": {
+        "PRIVATE_APP_ACCESS_TOKEN": "YOUR_HUBSPOT_TOKEN_HERE"
+      }
+    },
+    "NT2D": {
+      "command": "npx",
+      "args": ["-y", "@bytebase/dbhub"],
+      "env": {
+        "TRANSPORT": "stdio",
+        "DSN": "mysql://username:password@host:port/database",
+        "READONLY": "true"
+      }
+    }
+  }
+}
