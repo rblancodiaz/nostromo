@@ -1,14 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "Bash(claude mcp add-json \"NT2D\" '{\"\"command\"\":\"\"npx\"\",\"\"args\"\":[\"\"-y\"\",\"\"@bytebase/dbhub\"\"],\"\"env\"\":{\"\"TRANSPORT\"\":\"\"stdio\"\",\"\"DSN\"\":\"\"mysql://neobookings:seenaiSh5Aewiu8@192.168.1.100:3306/neobookings_latest\"\",\"\"READONLY\"\":\"\"true\"\"}}')"
+      "Bash(claude mcp add-json \"NT2D\" '{\"\"command\"\":\"\"npx\"\",\"\"args\"\":[\"\"-y\"\",\"\"@bytebase/dbhub\"\"],\"\"env\"\":{\"\"TRANSPORT\"\":\"\"stdio\"\",\"\"DSN\"\":\"\"mysql://neobookings:seenaiSh5Aewiu8@192.168.1.100:3306/neobookings_latest\"\",\"\"READONLY\"\":\"\"true\"\"}}')",
+      "Bash(claude mcp add-json:*)",
+      "Bash(claude mcp list:*)",
+      "mcp__googleAdsServer__get_account_currency",
+      "mcp__googleAdsServer__get_campaign_performance",
+      "mcp__mcp-atlassian__jira_get_issue",
+      "mcp__mcp-atlassian__jira_add_comment"
     ],
     "deny": [],
     "ask": []
   },
+  "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "googleAdsServer",
     "neobookings"
-  ],
-  "enableAllProjectMcpServers": true
+  ]
 }
