@@ -12,7 +12,10 @@
       "mcp__hubspot__hubspot-search-objects",
       "mcp__mcp-atlassian__confluence_search",
       "mcp__mcp-atlassian__confluence_get_page",
-      "mcp__mcp-atlassian__confluence_update_page"
+      "mcp__mcp-atlassian__confluence_update_page",
+      "Bash(git push:*)",
+      "Bash(git fetch:*)",
+      "Bash(git stash drop:*)"
     ],
     "deny": [],
     "ask": []
