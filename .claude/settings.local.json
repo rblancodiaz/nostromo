@@ -7,7 +7,12 @@
       "mcp__googleAdsServer__get_account_currency",
       "mcp__googleAdsServer__get_campaign_performance",
       "mcp__mcp-atlassian__jira_get_issue",
-      "mcp__mcp-atlassian__jira_add_comment"
+      "mcp__mcp-atlassian__jira_add_comment",
+      "mcp__hubspot__hubspot-get-user-details",
+      "mcp__hubspot__hubspot-search-objects",
+      "mcp__mcp-atlassian__confluence_search",
+      "mcp__mcp-atlassian__confluence_get_page",
+      "mcp__mcp-atlassian__confluence_update_page"
     ],
     "deny": [],
     "ask": []
