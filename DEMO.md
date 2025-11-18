@@ -1,5 +1,5 @@
 Google ADS
-Dame un reporte de las campañas de los últimos 7 días para la cuenta: 975-991-3507 dentro de la cuenta MCC: 100-515-2089 
+Dame un reporte de las campañas de los últimos 7 días para la cuenta: 975-991-3507 dentro de la cuenta MCC: 100-515-2089
 
 Google ADS + JIRA
 Dime que campañas mejorarías, y actualiza la tarea CDT-18619 con la información para que el Account empiece a trabajar. 
