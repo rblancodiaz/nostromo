@@ -1,9 +1,6 @@
 {
   "permissions": {
     "allow": [
-      "Bash(claude mcp add-json \"NT2D\" '{\"\"command\"\":\"\"npx\"\",\"\"args\"\":[\"\"-y\"\",\"\"@bytebase/dbhub\"\"],\"\"env\"\":{\"\"TRANSPORT\"\":\"\"stdio\"\",\"\"DSN\"\":\"\"mysql://neobookings:seenaiSh5Aewiu8@192.168.1.100:3306/neobookings_latest\"\",\"\"READONLY\"\":\"\"true\"\"}}')",
-      "Bash(claude mcp add-json:*)",
-      "Bash(claude mcp list:*)",
       "mcp__googleAdsServer__get_account_currency",
       "mcp__googleAdsServer__get_campaign_performance",
       "mcp__mcp-atlassian__jira_get_issue",
@@ -17,7 +14,8 @@
       "Bash(git fetch:*)",
       "Bash(git stash drop:*)",
       "mcp__googleAdsServer__run_gaql",
-      "Bash(npx:*)"
+      "Bash(npx:*)",
+      "mcp__neobookings__hotel_search_rq"
     ],
     "deny": [],
     "ask": []
