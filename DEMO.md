@@ -16,7 +16,36 @@ https://neobookings.atlassian.net/wiki/spaces/NP1/pages/926384130/Ventas+FITUR+-
 ---
 
 MCP Neoobokings
-¿Qué hoteles hay disponibles en Ibiza de 4 o más estrellas?
-Dame información de las habitaciones de Migjorn
-Muéstrame imágenes de la Suite Sanctuary
+Prompts:
+
+Dime que hoteles de 4 o más estrellas hay disponibles en Ibiza.
+Muéstrame información de las habitaciones y pensiones del hotel Nostromo.
 ¿Qué extras tiene el hotel?
+Resérvame la habitación más barata, del del 19 al 21 de diciembre para 2 adultos con un extra de circuito spa para el hotel Nostromo. Utiliza el código promocional PROMO2025.
+
+---
+
+Datos del titular de la reserva:
+
+Nombre: Raúl 
+Apellidos: Blanco Díaz
+Documento/Pasaporte: 89570509E
+Email: raul.blanco@neobookings.com
+Teléfono: 628548173
+Dirección: Calle Falsa, 123
+Código Postal: 08294
+Ciudad: Springfield
+Provincia/Estado: Hampden
+País: EEUU
+Hora de llagada: 16:00
+
+Datos de los huéspedes:
+Huésped 1: Raúl Blanco Díaz
+Huésped 2: Víctor Batista Medeiros
+
+
+Tarjeta online:
+Número: 4111 1111 1111 1111
+CVV: 123
+Fecha expedición: 12/30
+Nombre titular: Raul Card Test
