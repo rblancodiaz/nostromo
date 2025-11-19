@@ -15,7 +15,8 @@
       "Bash(git stash drop:*)",
       "mcp__googleAdsServer__run_gaql",
       "Bash(npx:*)",
-      "mcp__neobookings__*"
+      "mcp__neobookings__*",
+      "mcp__NT2D__execute_sql"
     ],
     "deny": [],
     "ask": []
