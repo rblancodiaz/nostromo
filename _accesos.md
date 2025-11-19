@@ -6,7 +6,9 @@ puerto: 3306
 
 ---
 # npm install -g @bytebase/dbhub
+
+# DEVBOX VPN
 # claude mcp add-json "NT2D" '{"command":"npx","args":["-y","@bytebase/dbhub"],"env":{"TRANSPORT":"stdio","DSN":"mysql://neobookings:seenaiSh5Aewiu8@devbox.neobookings.com:3306/neobookings","READONLY":"true"}}'
 
-# npx @bytebase/dbhub --transport http --port 8080 --dsn "mysql://neobookings:seenaiSh5Aewiu8@devbox.neobookings.com:3306/neobookings" --readonly
-
+# SSH
+# npx @bytebase/dbhub --transport http --port 8080 --dsn "mysql://neobookings:seenaiSh5Aewiu8@localhost:3306/neobookings" --readonly
