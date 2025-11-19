@@ -15,8 +15,7 @@
       "Bash(git stash drop:*)",
       "mcp__googleAdsServer__run_gaql",
       "Bash(npx:*)",
-      "mcp__neobookings__hotel_search_rq",
-      "mcp__googleAdsServer__list_accounts"
+      "mcp__neobookings__*"
     ],
     "deny": [],
     "ask": []

@@ -21,7 +21,7 @@ Prompts:
 Dime que hoteles de 4 o más estrellas hay disponibles en Ibiza.
 Muéstrame información de las habitaciones y pensiones del hotel Nostromo.
 ¿Qué extras tiene el hotel?
-Resérvame la habitación más barata, del del 19 al 21 de diciembre para 2 adultos con un extra de circuito spa para el hotel Nostromo. Utiliza el código promocional PROMO2025.
+Resérvame la habitación más barata posible del 19 al 21 de junio para dos adultos para el hotel Nostromo. Utiliza el código promocional PROMO2026.
 
 ---
 
@@ -42,7 +42,6 @@ Hora de llagada: 16:00
 Datos de los huéspedes:
 Huésped 1: Raúl Blanco Díaz
 Huésped 2: Víctor Batista Medeiros
-
 
 Tarjeta online:
 Número: 4111 1111 1111 1111
