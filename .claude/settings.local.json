@@ -10,7 +10,15 @@
       "Bash(git push:*)",
       "Bash(git fetch:*)",
       "Bash(git stash drop:*)",
-      "Bash(npx:*)"
+      "Bash(npx:*)",
+      "mcp__NT2D__execute_sql",
+      "mcp__googleAdsServer__list_accounts",
+      "mcp__googleAdsServer__get_campaign_performance",
+      "mcp__googleAdsServer__run_gaql",
+      "mcp__googleAdsServer__list_resources",
+      "mcp__mcp-atlassian__jira_get_issue",
+      "mcp__mcp-atlassian__jira_update_issue",
+      "mcp__mcp-atlassian__jira_add_comment"
     ],
     "deny": [],
     "ask": []
