@@ -18,7 +18,8 @@
       "mcp__googleAdsServer__list_resources",
       "mcp__mcp-atlassian__jira_get_issue",
       "mcp__mcp-atlassian__jira_update_issue",
-      "mcp__mcp-atlassian__jira_add_comment"
+      "mcp__mcp-atlassian__jira_add_comment",
+      "mcp__googleAdsServer__get_account_currency"
     ],
     "deny": [],
     "ask": []
